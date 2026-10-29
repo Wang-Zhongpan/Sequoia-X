@@ -48,16 +48,19 @@ python main.py --backfill     # 回填模式：全市场历史K线一次性灌�
 
 ### 环境要求
 
-- Python >= 3.10
+- Python >= 3.10（推荐 3.12）
 
 ### 1. 安装依赖
 
 ```bash
-# 推荐使用 uv（快速包管理器）
+# 推荐使用 uv（快速包管理器，按 uv.lock 精确安装）
 uv sync
 
-# 或者 pip
-pip install .
+# 或者使用 pip + 已锁定版本的依赖清单
+pip install -r requirements.txt
+
+# 开发/测试环境（包含运行时依赖 + pytest/hypothesis）
+pip install -r requirements-dev.txt
 ```
 
 ### 2. 配置环境变量
