@@ -1,3 +1,11 @@
+> **Forked from** [sngyai/Sequoia-X](https://github.com/sngyai/Sequoia-X)
+>
+> 本仓库为该项目的个人 Fork，仅用于学习与研究，非官方版本，与原作者无隶属关系。
+> 原项目未附带 LICENSE 文件，代码版权归原作者所有；本仓库不对原始代码主张任何权利。
+> 上游更新通过 `upstream` 远程同步：`git fetch upstream && git merge upstream/master`。
+
+---
+
 # Sequoia-X: 王者回归 | The King Returns
 
 > A 股量化选股系统 V2 | A-Share Quantitative Stock Selection System V2
